@@ -10,7 +10,7 @@ This project is an API built with [NestJS](https://nestjs.com/) to learn how to 
 
 ## 📚 Objective
 
-To progressively learn NestJS by building a Pokémon-style API called "Pockedex", practicing the use of Docker, MongoDB integration, DTOs, and best practices in API development.
+To progressively learn NestJS by building a API called "Pockedex", practicing the use of Docker, MongoDB integration, DTOs, and best practices in API development.s
 
 ---
 
@@ -19,36 +19,12 @@ To progressively learn NestJS by building a Pokémon-style API called "Pockedex"
 - **Node.js**
 - **NestJS**
 - **TypeScript**
-- **MongoDB**
+- **MongoDB + Mongoose**
 - **Docker + Docker Compose**
 - **ESLint + Prettier**
 
 ---
 
-## 📁 Project Structure
-
-```bash
-src/
-│
-├── app.module.ts         # Root module
-├── main.ts               # Entry point
-│
-├── pokemon/              # Pokémon module
-│   ├── dto/
-│     ├── create-pokemon.dto.ts
-│   ├── interfaces/
-│     ├── pokemon.interface.ts
-│   ├── entities/
-│     ├── pokemon.entity.ts
-│   ├── pokemon.module.ts
-│   ├── pokemon.controller.ts
-│   └── pokemon.service.ts
-│
-├── seed/                 # Seed module
-│   ├── data/
-│     ├──
-
-``` 
 
 ## ▶️ How to Run the Project
 
