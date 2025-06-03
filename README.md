@@ -52,3 +52,39 @@ npm install
 ```bash
  docker-compose up -d
 ``` 
+
+5. Open in browser or use Postman at http://localhost:3000
+6. ✅ Execute the Seed to Fill the Database
+
+You can run the seed by visiting the following endpoint:
+
+```bash
+GET http://localhost:3000/seed
+``` 
+
+This will populate the database with sample Pokémon data.
+
+
+## 📬 Postman Collection
+
+All available API requests are included in a Postman collection so you can test them easily.
+
+📁 File path:
+
+```bash
+postman/pokedex.postman_collection.json
+```
+
+You can import this file into Postman to test endpoints like:
+
+```bash
+GET /pokemon
+
+GET /pokemon/:term
+
+POST /pokemon
+
+DELETE /pokemon/:id
+
+GET /seed – Populate the database with sample data
+```
