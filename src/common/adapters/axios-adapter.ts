@@ -7,9 +7,9 @@ export class AxiosAdapter implements httpAdapter {
 
     private axios: AxiosInstance = axios;
 
-    get<T>(url: string): Promise<T> {
+    async get<T>(url: string): Promise<T> {
         try{
-            const { data } = this.axios.get<T>( url );
+            const { data } = await this.axios.get<T>( url );
             return data;
 
         }catch(error){
