@@ -78,11 +78,13 @@ postman/pokedex.postman_collection.json
 You can import this file into Postman to test endpoints like:
 
 ```bash
-GET /pokemon
-
 GET /pokemon/:term
 
+GET /pokemon/?limit=5&offset=10 - Pagination
+
 POST /pokemon
+
+PATCH /pokemon/:term
 
 DELETE /pokemon/:id
 
