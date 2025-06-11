@@ -30,29 +30,35 @@ To progressively learn NestJS by building a API called "Pockedex", practicing th
 
 1. Clone this repository:
 
-```bash
-git clone https://github.com/yuzmaryporras/nest-pokedex.git
-cd nest-pokedex
-```
+  ```bash
+  git clone https://github.com/yuzmaryporras/nest-pokedex.git
+  cd nest-pokedex
+  ```
 
 2. Install dependencies:
 
-```bash
-npm install
-```
+  ```bash
+  npm install
+  ```
 
-3. Have nest instaled:
+3. Have nest cli instaled:
 
-```bash
- npm i -g  @nestjs/cli
-```
+  ```bash
+  npm i -g  @nestjs/cli
+  ```
 
 4. Upload database
 
-```bash
- docker-compose up -d
-``` 
+  ```bash
+  docker-compose up -d
+  ``` 
+5. Clone the file ```.env.template:```  and rename to ```.env```
+6. Fill the environment variables defined in ```.env```
+7. Run application in dev with
 
+  ```bash
+  npm run start:dev
+  ``` 
 5. Open in browser or use Postman at http://localhost:3000
 6. ✅ Execute the Seed to Fill the Database
 
