@@ -70,6 +70,14 @@ GET http://localhost:3000/seed
 
 This will populate the database with sample Pokémon data.
 
+## Production Build
+1. Create the file .env.prod
+2. Fill the environment variables of prod
+3. Create the new image
+
+```bash
+docker-compose -f docker-compose.prod.yaml up --build
+```
 
 ## 📬 Postman Collection
 
